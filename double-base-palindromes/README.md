@@ -1,4 +1,4 @@
-# Double base Palindromes - Problem 36
+# Double-base Palindromes - Problem 36
 
 The decimal number, 585 = 1001001001 (binary), is palindromic in both bases.
 Find the sum of all numbers, less than one million, which are palindromic in base 10 and base 2.
