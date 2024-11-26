@@ -24,5 +24,6 @@ fn palindrome_sum() -> u32 {
 }
 
 fn main() {
-    
+    let result = palindrome_sum();
+    println!("The sum of palindromic numbers in base 10 and base 2 is {}", result);
 }
