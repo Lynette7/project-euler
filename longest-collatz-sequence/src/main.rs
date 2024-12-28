@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 
 /// Compute the Collatz sequence length for a given number
-fn collatz_sequence_length(mut n: u64, memo: &mut HashMap<u64, u64>) -> u64 {
+fn collatz_sequence_length(n: u64, memo: &mut HashMap<u64, u64>) -> u64 {
     // If we've already computed this number's sequence length, return it
     if let Some(&length) = memo.get(&n) {
         return length;
