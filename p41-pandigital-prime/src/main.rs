@@ -21,11 +21,5 @@ fn is_prime(n: u64) -> bool {
 }
 
 fn main() {
-    let mut largest_pandigiotal_prime = 0;
-
-    for n in (1..=9).rev() {
-        let digits: Vec<usize> = (1..=n).collect();
-        let permutations = digits.iter().permutations(n);
-
-    }
+    todo!();
 }
